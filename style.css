@@ -147,6 +147,15 @@ header h1	{
 	
 }
 
+header h4	{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 485px;
+	z-index: 6;
+	font-size: 20px;
+}
+
 .title_top	{
 	
 	top: 35%;
