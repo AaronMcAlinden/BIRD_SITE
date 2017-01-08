@@ -192,11 +192,12 @@ header h1	{
 nav	{
 	font-family: "fira-sans", sans-serif;
 	text-align: center;
-	font-weight: 400;
-	font-size: 26px;
+	font-weight: 100;
+	font-size: 20px;
 	padding-top: 25px;
 	color: white;
 	letter-spacing: 5px;
+	margin: 0 auto;
 	margin-top: -20px;
 	
 }
@@ -217,7 +218,7 @@ ul	{
 ul li	{
 	
 	display: inline-block;
-	margin: 0 75px;
+	margin: 0 85px;
 	text-transform: uppercase;
 }
 
@@ -806,7 +807,7 @@ nav li:hover	{
 .sliding-u-l-r-l {
     display: inline-block;
     position: relative;
-    padding-bottom: 5px;
+    padding-bottom: 4px;
 }
 .sliding-u-l-r-l:before {
     content: '';
@@ -814,7 +815,7 @@ nav li:hover	{
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 5px;
+    height: 4px;
     width: 0;
     transition: width 0s ease, background .5s ease;
 }
@@ -824,7 +825,7 @@ nav li:hover	{
     position: absolute;
     right: 0;
     bottom: 0;
-    height: 5px;
+    height: 4px;
     width: 0;
     background: #FECD07;
     transition: width .5s ease;
