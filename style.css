@@ -1,0 +1,1362 @@
+html, body 	{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	color: white;
+
+}
+
+
+.nat_rec	{
+	height: 620px;
+	width: 480px;
+	border: solid;
+	border-color: #FECD07;
+	border-width: 30px;
+	position: absolute;
+	z-index: 0;
+	
+}
+
+h1	{
+	font-family: "bodoni-urw";
+	color: white;
+	font-size: 100px;
+	font-weight: bold;
+	margin: 0;
+	
+	
+	
+}
+
+h2	{
+	font-family: "fira-sans", sans-serif;
+	color: white;
+	text-transform: uppercase;
+	line-height: 50px;
+	border-left: solid #FECD07 7.5px;
+	padding-left: 12px;
+	font-size: 52px;
+	margin: 0;
+}
+
+
+
+h3	{
+	text-transform: uppercase;
+	font-weight: 400;
+	border-bottom: solid #FECD07 4px;
+	display: inline-block;
+	margin: 0;
+	font-family: "fira-sans"
+	
+	
+}
+
+h4	{
+	color: #FECD07;
+	font-family: "fira-sans", sans-serif;
+	font-weight: 100;
+	font-size: 25px;
+	letter-spacing: 5px;
+	word-spacing: -2.5px;
+	margin-top: -5px;
+	text-transform: uppercase;
+	text-align: center;
+	 margin: 25px 0;
+}
+
+
+p	{
+	font-weight: 100;
+	font-family: "fira-sans", sans-serif;
+	color: white;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+blockquote	{
+	width: 85%;
+	margin: 0 auto;
+	margin-top: -120px;
+	color: white;
+	text-align: center;
+	position: relative;
+	z-index: 5;
+	
+}
+
+blockquote p	{
+	font-family: "bodoni-urw", serif;
+	font-size: 30px;
+	font-weight: 100;
+	line-height: 45px;
+}
+
+
+caption	{
+	margin: 0 auto;
+	
+}
+
+
+.block_text	{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.citation	{
+	color: #FECD07;
+	letter-spacing: 2px;
+	word-spacing: -2px;
+	display: block;
+	margin: 2em auto;
+	text-align: center;
+	
+	
+}
+
+
+
+/*==============================
+===============HEADER===========
+==============================*/
+
+
+
+
+header	{
+	background: url(images/mtn_scape) no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 750px;
+	
+	
+}
+
+
+header h1	{
+	position: absolute;
+	left: 0;
+	right: 0;
+	
+	
+	
+}
+
+.title_top	{
+	
+	top: 35%;
+}
+
+.title_bottom	{
+	top: 52%;
+	z-index: 2;
+}
+
+
+.header_rec	{
+	
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	z-index: 0;
+	top: 75px;
+	position: relative;
+	overflow: hidden;
+	border-width: 40px;
+	
+}
+
+.mtn_front	{
+	background: url(images/mtn1.png) no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 580px;
+	z-index: 1;
+	bottom: -90px;
+}
+
+
+
+/*==============================
+===============NAV==============
+==============================*/
+
+
+
+nav	{
+	font-family: "fira-sans", sans-serif;
+	text-align: center;
+	font-weight: 400;
+	font-size: 26px;
+	padding-top: 25px;
+	color: white;
+	letter-spacing: 5px;
+	margin-top: -20px;
+	
+}
+
+nav li	{
+	padding-bottom: 5px;
+	
+}
+
+
+
+ul	{
+	list-style: none;
+	
+}
+
+
+ul li	{
+	
+	display: inline-block;
+	margin: 0 75px;
+	text-transform: uppercase;
+}
+
+a	{
+	text-decoration: none;
+	color: inherit;
+	
+}
+
+
+
+/*==============================
+===============INTRO============
+==============================*/
+
+.intro_sec	{
+	height: 850px;
+	background: url(images/fern.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	z-index: 2;
+	position: relative;
+	margin-top: -20px;
+	color:white;
+	font-family: "fira-sans", sans-serif;
+}
+
+.left_block	{
+	width: 710px;
+	height: 425px;
+	background-color: rgba(3,12,18,0.7);
+	position: absolute;
+	top: 200px;
+	left: 50px;
+	z-index: 1;
+}
+
+.intro_sec p	{
+	font-size: 22.5px;
+	line-height: 35px;
+}
+
+.right_rec	{
+	
+	position: absolute;
+	right: 10%;
+	top: 10%;
+	z-index: 0;
+}
+
+.left_rec	{
+	position: absolute;
+	left: 10%;
+	top: 15%;
+	z-index: 0;
+}
+
+/*==============================
+===============REDISCOVERY======
+==============================*/
+
+.rediscovery	{
+	height: 1000px;
+	width: 100%;
+	background: #14161C;
+	text-align: center;
+}
+
+.rediscovery p	{
+	font-size: 20px;
+	line-height: 35px;
+	
+}
+ 
+.centered_sec_text	{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 170px;
+}
+
+.line	{
+	width: 10px;
+	height: 100px;
+	background: #FECD07;
+	position: absolute;
+	left: 50%;
+}
+
+.bot_line	{
+	margin-top: 133px;
+}
+
+
+/*==============================
+===============THE_BIRD======
+==============================*/
+
+.the_bird	{
+	height: 1000px;
+	background: url(images/woods.jpg)no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	
+}
+
+.layer	{
+	background-color: rgba(3,12,18,0.7);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.left_text{
+	width: 520px;
+	height: 780px;
+	margin: 100px 0 0 50px;
+	position: relative;
+	z-index: 1;
+}
+
+
+.right_text{
+	width: 520px;
+	height: 780px;
+	margin: 50px;
+	float: right;
+	position: relative;
+	z-index: 2;
+}
+
+.tak_frnt	{
+	background: url(images/bird1.png) no-repeat;
+	background-position: center;
+	width: 800px;
+	height: 400px;
+	position: absolute;
+	right: 0;
+	top: 500px;
+	z-index: 0;
+}
+
+.tak_bk	{
+	background: url(images/birds2.png) no-repeat;
+	background-position: center;
+	width: 800px;
+	height: 400px;
+	position: absolute;
+	right: 0;
+	top: 500px;
+	z-index: 0;
+}
+
+.moa_pic	{
+	background: url(images/moa2.png) no-repeat;
+	background-position: center;
+	width: 500px;
+	height: 800px;
+	position: absolute;
+	left: 50px;;
+	top: 100px;
+	z-index: 0;
+	opacity: 0;
+	transform: translateX(-100px);
+	
+	
+}
+
+
+/*==============================
+=============QUOTE_SEC==========
+==============================*/
+
+
+.quote_sec	{
+	height: 1200px;
+	background: #14161C;
+}
+
+.quote_bk	{
+	height: 853px;
+	background: url(images/alpine5.jpg) no-repeat;
+	margin: 0 auto;
+}
+
+
+
+.quest_bk	{
+	height: 853px;
+	background: url(images/doctor2.png) no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+}
+
+
+
+.peak	{
+	height: 574px;
+	width: 100%;
+	background: url(images/peak4.png) no-repeat;
+	background-size: cover;
+	position: absolute;
+	margin: 0 auto;
+	margin-top: 200px;
+	
+}
+
+
+.doc	{
+	height: 1000px;
+	width: 100%;
+	background: url(images/doc_again.png) no-repeat;
+	background-size: cover;
+	position: absolute;
+	margin: 0 auto;
+	margin-top: 50px;
+	
+}
+
+
+
+.square	{
+	height: 200px;
+	width: 800px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-top: 300px;
+	border: solid;
+	border-color: #FECD07;
+	border-width: 30px;
+	position: absolute;
+	z-index: 0;
+}
+
+
+#quest .square	{
+	height: 330px;
+	width: 800px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-top: 450px;
+	border: solid;
+	border-color: #FECD07;
+	border-width: 30px;
+	position: absolute;
+	z-index: 0;
+}
+
+
+
+
+/*==============================
+=============GRAPH_SEC==========
+==============================*/
+
+.graph_sec	{
+	background: url(images/mtn_scape)no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 1250px;
+	margin: 0 auto;
+}
+
+.graph_sec .layer	{
+	height: 1250px;
+}
+
+.graph_sec h1	{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 100px;
+}
+
+
+
+
+.container {
+ 
+  width: 300px;
+  height: 300px;
+  position: relative;
+	margin: 0 auto;
+	margin-top: 120px;
+/*	opacity: 0;*/
+	
+	
+}
+
+
+.appear	{
+	opacity: 1 !important;
+}
+
+
+.graph_sec p	{
+	text-transform: uppercase;
+	font-size: 40px;
+	letter-spacing: 8px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-weight: 410;
+	
+}
+
+
+
+.population	{
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 600px;
+	height: 300px;
+}
+
+
+table	{
+	font-family: "fira-sans", sans-serif;
+	border-collapse: collapse;
+	
+	
+	
+/*	background: linear-gradient(rgba(5,140,255,.1), rgba(64,255,108,.3) );*/
+}
+
+
+
+thead	tr{
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	
+	
+	
+	
+}
+
+thead td	{
+	padding: 20px 10px;
+	background: rgba(221,221,221,.11);
+
+}
+
+tr:hover	{ 
+
+	opacity: 1;
+
+	
+}
+
+
+
+tr	{
+	font-size: 15px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	opacity: .75;
+	
+}
+
+
+
+td	{
+	
+	padding-left: 10px;
+}
+
+
+
+
+.on_bg	{
+	
+	background: rgba(221,221,221,.05);
+	
+}
+
+
+
+/*==============================
+=============MAP_SEC============
+==============================*/
+
+
+#map {
+        height: 550px;
+      }
+
+
+.thirty_yrs	{
+	height: 1500px;
+	background: #14161C;
+	text-align: center;
+}
+
+
+.centered_text	{
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+
+/*==============================
+=============WINTER=============
+==============================*/
+
+.winter_sec	{
+	height: 800px;
+	background: url(images/winter.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.block2_wrap	{
+	width: 710px;
+	height: 100%;
+	background-color: rgba(3,12,18,0.7);
+	left: 0;
+	position: relative;
+	z-index: 3;
+}
+
+.block2	{
+	margin: 0 50px;
+	padding-top: 75px;
+	
+	
+}
+
+
+.rock	{
+	width: 100%;
+	height: 500px;
+	background: url(images/rock.png) no-repeat;
+	background-size: cover;
+	background-position: right;
+	position: absolute;
+	right: 0;
+	margin-top: -500px;
+	z-index: 2;
+}
+
+.winter_sec .nat_rec	{
+	top: 10150px;
+	z-index: 1;
+	
+}
+
+
+/*==============================
+=============NZEALAND===========
+==============================*/
+
+.nz_sec	{
+	height: 900px;
+	background: url(images/nzealand.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+
+.nz_sec .block2_wrap	{
+	float: right;
+}
+
+
+.nz_sec .nat_rec	{
+	top: 11050px;
+	z-index: 1;
+	
+}
+
+.sheep	{
+	width: 900px;;
+	height: 450px;
+	background: url(images/sheep.png) no-repeat;
+	background-size: cover;
+	background-position: right;
+	position: absolute;
+	left: 0;
+	top: 11380px;
+	z-index: 2;
+	
+}
+
+
+
+/*==============================
+=============NZEALAND===========
+==============================*/
+
+.ff_sec	{
+	height: 600px;
+	background: url(images/mtn_scape) no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: 5;
+}
+
+
+.right_rec:hover	{
+	
+	transform: translateX(20px);
+	transition-duration: .5s;
+
+}
+
+
+.left_rec:hover	{
+	
+	transform: translateX(-20px);
+	transition-duration: .5s;
+
+}
+
+.ff_sec .block2_wrap	{
+	height: 500px;
+	margin: 0 50px;
+	position: relative;
+	top: 75px;;
+}
+
+.yellow	{
+	
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.ff_sec p	{
+	font-size: 15px;
+}
+
+.ff_sec	h2	{
+	margin-top: -20px;
+}
+
+.ff_sec h3	{
+	margin-top: 10px;
+}
+
+/*==============================
+=============FOOTER=============
+==============================*/
+
+footer	{
+	height: 400px;
+	background: #14161C;
+	text-align: center;
+	margin: 0 auto;
+}
+
+footer p	{
+	padding-top: 150px;
+	width: 65%;
+	margin: 0 auto;
+	line-height: 35px;
+	font-size: 15px;
+}
+
+
+
+
+
+
+/*==============================
+=========INTERACTIVITY==========
+==============================*/
+
+
+nav li:hover	{
+	transform: scale(1.05);
+	transition: .3s ease;
+	
+}
+
+
+.sliding-u-l-r-l {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5px;
+}
+.sliding-u-l-r-l:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 0;
+    transition: width 0s ease, background .5s ease;
+}
+.sliding-u-l-r-l:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 5px;
+    width: 0;
+    background: #FECD07;
+    transition: width .5s ease;
+}
+.sliding-u-l-r-l:hover:before {
+    width: 100%;
+    background: #FECD07;
+    transition: width .5s ease;
+}
+.sliding-u-l-r-l:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}
+
+
+h3	{
+	box-shadow: inset 0 0 0 0 #FECD07;
+	-webkit-transition: all ease 0.8s;
+	-moz-transition: all ease 0.8s;
+	transition: all ease 0.8s;
+	padding: 0 5px 0 2px;
+}
+
+h3:hover {
+    box-shadow: inset 0 -100px 0 0 #FECD07;
+    color: #FFF;
+}
+
+
+.land1	{
+	opacity: 0;
+	transform: translateX(-100px);
+}
+
+
+
+
+.tak_scroll	{
+	margin-top: 225px;
+}
+
+.rec_scroll	{
+	margin-top: -390px;
+}
+
+
+
+
+
+
+.disc_wrap	{
+	position: relative;
+	z-index: 4;
+}
+
+
+.tracks	{
+	height: 100px;
+	width: 100px;
+	background: url(images/track1.svg);
+	position: absolute;
+	z-index:3;
+	opacity: 0;
+	
+}
+
+.top_track_one	{
+	margin-top: 50px;
+	left: 100px;
+}
+
+
+.top_track_two	{
+	margin-top: 175px;
+	left: 200px;
+	transform: rotate(-7deg);
+	
+}
+
+
+.mid_track_one	{
+	
+	margin-top: 300px;
+	left: 300px;
+	transform: rotate(-10deg);
+}
+
+
+.mid_track_two	{
+	
+	margin-top: 400px;
+	left: 400px;
+	transform: rotate(-20deg);
+}
+
+
+.bottom_track_one	{
+	
+	margin-top: 550px;
+	left: 500px;
+	transform: rotate(-30deg);
+}
+
+
+.bottom_track_two	{
+	
+	margin-top: 650px;
+	left: 600px;
+	transform: rotate(-50deg);
+}
+
+
+
+.last_track_one	{
+	
+	margin-top: 800px;
+	left: 650px;
+	transform: rotate(-30deg);
+}
+
+
+.side_track_one	{
+	
+	margin-top: 850px;
+	left: 800px;
+	transform: rotate(-50deg);
+}
+
+.side_track_two	{
+	
+	margin-top: 925px;
+	left: 950px;
+	transform: rotate(-30deg);
+}
+
+
+
+
+
+.track_show	{
+	opacity: 1;
+	transition: ease .7s;
+	
+}
+
+.top_track_two	{
+	transition-delay: .5s;
+}
+
+.mid_track_one	{
+	transition-delay: 1s;
+}
+
+.mid_track_two	{
+	transition-delay: 1.5s;
+}
+
+.bottom_track_one	{
+	transition-delay: 2s;
+}
+
+.bottom_track_two	{
+	transition-delay: 2.5s;
+}
+
+
+.last_track_one	{
+	transition-delay: 3s;
+}
+
+.last_track_two	{
+	transition-delay: 3.5s;
+}
+
+.side_track_one	{
+	transition-delay: 4s;
+}
+
+.side_track_two	{
+	transition-delay: 4.5s;
+}
+
+
+
+.slide_in_box	{
+	opacity: 0;
+	transform: translateX(-100px);
+}
+
+
+.peak_scroll	{
+	margin-top: 658px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top_track_ones	{
+	margin-top: 50px;
+	left: 100px;
+}
+
+
+.top_track_twos	{
+	margin-top: 175px;
+	left: 200px;
+	transform: rotate(-7deg);
+	
+}
+
+
+.mid_track_ones	{
+	
+	margin-top: 300px;
+	left: 300px;
+	transform: rotate(-10deg);
+}
+
+
+.mid_track_twos	{
+	
+	margin-top: 400px;
+	left: 400px;
+	transform: rotate(-20deg);
+}
+
+
+.bottom_track_ones	{
+	
+	margin-top: 550px;
+	left: 500px;
+	transform: rotate(-30deg);
+}
+
+
+.bottom_track_twos	{
+	
+	margin-top: 650px;
+	left: 600px;
+	transform: rotate(-50deg);
+}
+
+
+
+.last_track_ones	{
+	
+	margin-top: 800px;
+	left: 650px;
+	transform: rotate(-30deg);
+}
+
+
+.side_track_ones	{
+	
+	margin-top: 850px;
+	left: 800px;
+	transform: rotate(-50deg);
+}
+
+.side_track_twos	{
+	
+	margin-top: 925px;
+	left: 950px;
+	transform: rotate(-30deg);
+}
+
+.centered_sec_text	{
+	position: relative;
+	z-index: 3;
+	
+}
+
+.tracks2	{
+	opacity: 0;
+	
+}
+
+
+.track_show_two	{
+	opacity: 1;
+	transition: ease .7s;
+	
+}
+
+
+
+.top_track_twos	{
+	transition-delay: .5s;
+}
+
+.mid_track_ones	{
+	transition-delay: 1s;
+}
+
+.mid_track_twos	{
+	transition-delay: 1.5s;
+}
+
+.bottom_track_ones	{
+	transition-delay: 2s;
+}
+
+.bottom_track_twos	{
+	transition-delay: 2.5s;
+}
+
+
+.last_track_ones	{
+	transition-delay: 3s;
+}
+
+.last_track_twos	{
+	transition-delay: 3.5s;
+}
+
+.side_track_ones	{
+	transition-delay: 4s;
+}
+
+.side_track_twos	{
+	transition-delay: 4.5s;
+}
+
+
+
+
+.doc_scroll	{margin-top: 1765px;
+}
+
+.z_wrap	{
+	position: relative;
+	z-index: 3;
+}
+
+.squared_scroll	{
+	margin-top: 1010px !important;
+}
+
+.slide_up_rec	{
+	opacity: 0;
+	transform: translateY(300px);
+}
+
+
+.slide_up_rec2	{
+	opacity: 0;
+	transform: translateY(300px);
+}
+
+
+
+.fast_facts	{
+	opacity: 0;
+	transform: translateX(-100px);
+}
+
+
+
+.sheep_scroll	{
+	
+	margin-top: 815px;
+	z-index: 1;
+}
+
+
+
+
+
+
+
+
+.slide_up_appear	{
+	opacity: 1;
+	transform: translateY(0);
+	transition: ease 1s;
+}
+
+
+.is-showing	{
+	opacity: 1;
+	transition: ease .5s;
+	transform: translateX(0px);
+}
+
+
+/*=============================================
+=================MEDIA_QUERIES=================
+===============================================*/
+
+
+
+
+
+
+@media screen and (max-width: 948px){
+	
+	h1	{
+		font-size: 60px;
+	}
+	
+	header h1	{
+		font-size: 80px;
+	}
+	.title_top	{
+		margin-top: 30px;
+		
+	}
+	
+}
+
+
+
+@media screen and (max-width: 780px){
+	
+	p	{ font-size: 18px !important;
+		
+	}
+	
+	blockquote p	{
+		font-size: 20px !important;
+		line-height: 40px;
+		
+	}
+	
+	#quest h1	{margin-top:-100px;}
+	
+	
+}
+
+
+
+
+@media screen and (max-width: 730px){
+	
+	header	h1	{
+		font-size: 60px;
+	}
+	
+	#twenty_eight	{
+		padding-bottom: 300px;
+	}
+	
+	#quest	{
+		padding-bottom: 300px;
+	}
+	
+	.slide_up_rec	{
+		display: none;
+	}
+	
+	
+	.slide_up_rec2	{
+		display: none;
+	}
+	
+	.nz_sec	.sheep	{
+		display: none;
+	}
+	
+	
+}
+
+
+@media screen and (max-width: 680px){
+	
+	
+	
+	
+	h1, h2, h3, h4, p	{
+		
+		max-width: 90% !important;
+		margin: 0 auto !imporatant;
+		
+	}
+	
+	footer	{
+		height: 700px;
+	}
+	
+	
+	
+	
+}
+
+
+
+@media screen and (max-width: 535px){
+	
+	header	h1	{
+		font-size: 60px;
+	}
+	
+	#twenty_eight	{
+		padding-bottom: 500px;
+	}
+	
+	#twenty_eight	{
+		height:{
+			2000px;
+		}
+	}
+	
+	
+}
+
+
+
+
+@media screen and (max-width: 450px){
+	
+	header	h1	{
+		font-size: 60px;
+	}
+	
+	#twenty_eight	{
+		padding-bottom: 700px;
+	}
+	
+	
+}
+
+
+
+
+
